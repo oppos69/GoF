@@ -43,11 +43,62 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AbstractFactory\ConcreteFactory1.cs" />
+    <Compile Include="AbstractFactory\ConcreteFactory2.cs" />
+    <Compile Include="AbstractFactory\Environment.cs" />
+    <Compile Include="AbstractFactory\IAbstractFactory.cs" />
+    <Compile Include="AbstractFactory\IAbstractProductA.cs" />
+    <Compile Include="AbstractFactory\IAbstractProductB.cs" />
+    <Compile Include="AbstractFactory\ProductA1.cs" />
+    <Compile Include="AbstractFactory\ProductA2.cs" />
+    <Compile Include="AbstractFactory\ProductB1.cs" />
+    <Compile Include="AbstractFactory\ProductB2.cs" />
+    <Compile Include="Builder\Builder.cs" />
+    <Compile Include="Builder\ConcreteBuilder1.cs" />
+    <Compile Include="Builder\ConcreteBuilder2.cs" />
+    <Compile Include="Builder\Director.cs" />
+    <Compile Include="Builder\Environmental.cs" />
+    <Compile Include="Builder\Product.cs" />
+    <Compile Include="MethorFactory\BulbCreator.cs" />
+    <Compile Include="MethorFactory\BulbLight.cs" />
+    <Compile Include="MethorFactory\Environmental.cs" />
+    <Compile Include="MethorFactory\ICreator.cs" />
+    <Compile Include="MethorFactory\ILight.cs" />
+    <Compile Include="MethorFactory\TubeCreator.cs" />
+    <Compile Include="MethorFactory\TubeLight.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Prototype\ConcretePrototype1.cs" />
+    <Compile Include="Prototype\Prototype.cs" />
+    <Compile Include="SimpleFactory\BulbLight.cs" />
+    <Compile Include="SimpleFactory\Environmental.cs" />
+    <Compile Include="SimpleFactory\evolution\BulbLight.cs" />
+    <Compile Include="SimpleFactory\evolution\Environmental.cs" />
+    <Compile Include="SimpleFactory\evolution\Product.cs" />
+    <Compile Include="SimpleFactory\evolution\TubeLight.cs" />
+    <Compile Include="SimpleFactory\ILight.cs" />
+    <Compile Include="SimpleFactory\LightSimpleFactory.cs" />
+    <Compile Include="SimpleFactory\TubeLight.cs" />
+    <Compile Include="Singleton\SingletonV1.cs" />
+    <Compile Include="StructuralPattern\Adapter\CCessna.cs" />
+    <Compile Include="StructuralPattern\Adapter\CDriveableCessna.cs" />
+    <Compile Include="StructuralPattern\Adapter\CDriveableCessna2.cs" />
+    <Compile Include="StructuralPattern\Adapter\CToyota.cs" />
+    <Compile Include="StructuralPattern\Adapter\Environmental.cs" />
+    <Compile Include="StructuralPattern\Adapter\ICar.cs" />
+    <Compile Include="StructuralPattern\Composite\SafePattern\Component.cs" />
+    <Compile Include="StructuralPattern\Composite\SafePattern\Composite.cs" />
+    <Compile Include="StructuralPattern\Composite\SafePattern\Leaf.cs" />
+    <Compile Include="StructuralPattern\Composite\Transparent\Component.cs" />
+    <Compile Include="StructuralPattern\Composite\Transparent\Composite.cs" />
+    <Compile Include="StructuralPattern\Composite\Transparent\Leaf.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="StructuralPattern\Decorator\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
